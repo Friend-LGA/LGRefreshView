@@ -1,0 +1,29 @@
+PODS:
+  - DACircularProgress (2.3.1)
+  - LGHelper (1.0.0):
+    - Reachability (~> 3.2)
+  - LGRefreshView (1.0.0):
+    - DACircularProgress (~> 2.3.1)
+    - LGRefreshView/LGRefreshView+UIScrollView (= 1.0.0)
+  - LGRefreshView/LGRefreshView+UIScrollView (1.0.0):
+    - DACircularProgress (~> 2.3.1)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - DACircularProgress
+  - LGHelper (from `../../LGHelper`)
+  - LGRefreshView (from `../`)
+
+EXTERNAL SOURCES:
+  LGHelper:
+    :path: ../../LGHelper
+  LGRefreshView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  LGHelper: 68fe43b3000e0472cfce76e58c512778dbdf0ac1
+  LGRefreshView: c68cfa5e6f647deeb969a0c3d2232356514c24a8
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+COCOAPODS: 0.37.2
