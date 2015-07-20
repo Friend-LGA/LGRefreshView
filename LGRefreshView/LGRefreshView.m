@@ -288,7 +288,7 @@ static CGFloat const kCircleInThicknessRatio  = 0.25;
         
         if (animated)
         {
-            [LGRefreshView animateStandartWithAnimations:^(void)
+            [LGRefreshView animateStandardWithAnimations:^(void)
              {
                  [self triggerAnimations];
              }
@@ -595,7 +595,7 @@ static CGFloat const kCircleInThicknessRatio  = 0.25;
 {
     if (self.superview)
         {
-            [LGRefreshView animateStandartWithAnimations:^(void)
+            [LGRefreshView animateStandardWithAnimations:^(void)
              {
                  [self endRefreshing2Animation];
              }
@@ -639,7 +639,7 @@ static CGFloat const kCircleInThicknessRatio  = 0.25;
 
 #pragma mark - Support
 
-+ (void)animateStandartWithAnimations:(void(^)())animations completion:(void(^)(BOOL finished))completion
++ (void)animateStandardWithAnimations:(void(^)())animations completion:(void(^)(BOOL finished))completion
 {
     if ([UIDevice currentDevice].systemVersion.floatValue >= 7.0)
     {
