@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A2C41B71BF4C9E300D071CD /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C41B41BF4C9E300D071CD /* DACircularProgressView.m */; };
+		4A2C41B81BF4C9E300D071CD /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C41B61BF4C9E300D071CD /* DALabeledCircularProgressView.m */; };
+		4A2C41BC1BF4CA0100D071CD /* LGRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C41BB1BF4CA0100D071CD /* LGRefreshView.m */; };
 		4A45A9C91A98AE2A00AC75D0 /* RefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A45A9C81A98AE2A00AC75D0 /* RefreshTableViewController.m */; };
 		4A4783A31A99D6560058F504 /* RefreshCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4783A21A99D6560058F504 /* RefreshCollectionViewController.m */; };
 		4ADC01FC1AC2E1E900F40A74 /* RefreshScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC01F51AC2E1E900F40A74 /* RefreshScrollViewController.m */; };
@@ -15,11 +18,15 @@
 		841015BF1A94CA2B0004B53B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841015BE1A94CA2B0004B53B /* TableViewController.m */; };
 		841015C41A94CA2B0004B53B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841015C31A94CA2B0004B53B /* Images.xcassets */; };
 		841015DE1A94CAEA0004B53B /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841015DD1A94CAEA0004B53B /* NavigationController.m */; };
-		EEC6C4E07A7E8DED535CD76E /* libPods-LGRefreshViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B1DD7E710090D5EE0DB7D5 /* libPods-LGRefreshViewDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		202900AF0BDA2D1FD82A675C /* Pods-LGRefreshViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGRefreshViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGRefreshViewDemo/Pods-LGRefreshViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4A2C41B31BF4C9E300D071CD /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
+		4A2C41B41BF4C9E300D071CD /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
+		4A2C41B51BF4C9E300D071CD /* DALabeledCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALabeledCircularProgressView.h; sourceTree = "<group>"; };
+		4A2C41B61BF4C9E300D071CD /* DALabeledCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALabeledCircularProgressView.m; sourceTree = "<group>"; };
+		4A2C41BA1BF4CA0100D071CD /* LGRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGRefreshView.h; sourceTree = "<group>"; };
+		4A2C41BB1BF4CA0100D071CD /* LGRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGRefreshView.m; sourceTree = "<group>"; };
 		4A45A9C71A98AE2A00AC75D0 /* RefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshTableViewController.h; sourceTree = "<group>"; };
 		4A45A9C81A98AE2A00AC75D0 /* RefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshTableViewController.m; sourceTree = "<group>"; };
 		4A4783A11A99D6560058F504 /* RefreshCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshCollectionViewController.h; sourceTree = "<group>"; };
@@ -36,8 +43,6 @@
 		841015C31A94CA2B0004B53B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		841015DC1A94CAEA0004B53B /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		841015DD1A94CAEA0004B53B /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
-		D1B1DD7E710090D5EE0DB7D5 /* libPods-LGRefreshViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGRefreshViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6B85288ACFBB85E0BB95906 /* Pods-LGRefreshViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGRefreshViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGRefreshViewDemo/Pods-LGRefreshViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,29 +50,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC6C4E07A7E8DED535CD76E /* libPods-LGRefreshViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A3F4B5F1AA8BFD1006D9DAA /* Demo View Controllers */ = {
+		4A2C41B21BF4C9E300D071CD /* DACircularProgress */ = {
 			isa = PBXGroup;
 			children = (
-				841E90251A95FA0500BF6E8A /* UIScrollView */,
-				841E90261A95FA1700BF6E8A /* UITableView */,
-				841E90271A95FA2000BF6E8A /* UICollectionView */,
+				4A2C41B31BF4C9E300D071CD /* DACircularProgressView.h */,
+				4A2C41B41BF4C9E300D071CD /* DACircularProgressView.m */,
+				4A2C41B51BF4C9E300D071CD /* DALabeledCircularProgressView.h */,
+				4A2C41B61BF4C9E300D071CD /* DALabeledCircularProgressView.m */,
 			);
-			name = "Demo View Controllers";
+			name = DACircularProgress;
+			path = LGRefreshViewDemo/DACircularProgress;
+			sourceTree = "<group>";
+		};
+		4A2C41B91BF4CA0100D071CD /* LGRefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				4A2C41BA1BF4CA0100D071CD /* LGRefreshView.h */,
+				4A2C41BB1BF4CA0100D071CD /* LGRefreshView.m */,
+			);
+			name = LGRefreshView;
+			path = ../LGRefreshView;
 			sourceTree = "<group>";
 		};
 		841015AA1A94CA2B0004B53B = {
 			isa = PBXGroup;
 			children = (
+				4A2C41B91BF4CA0100D071CD /* LGRefreshView */,
 				841015B51A94CA2B0004B53B /* LGRefreshViewDemo */,
 				841015B41A94CA2B0004B53B /* Products */,
-				EF0289161617AD494C7562E5 /* Pods */,
 				FE1F170CEC0E67195649D7BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +105,9 @@
 				841015DD1A94CAEA0004B53B /* NavigationController.m */,
 				841015BD1A94CA2B0004B53B /* TableViewController.h */,
 				841015BE1A94CA2B0004B53B /* TableViewController.m */,
-				4A3F4B5F1AA8BFD1006D9DAA /* Demo View Controllers */,
+				841E90251A95FA0500BF6E8A /* UIScrollView */,
+				841E90261A95FA1700BF6E8A /* UITableView */,
+				841E90271A95FA2000BF6E8A /* UICollectionView */,
 				841015C31A94CA2B0004B53B /* Images.xcassets */,
 				841015B61A94CA2B0004B53B /* Supporting Files */,
 			);
@@ -132,19 +150,10 @@
 			name = UICollectionView;
 			sourceTree = "<group>";
 		};
-		EF0289161617AD494C7562E5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E6B85288ACFBB85E0BB95906 /* Pods-LGRefreshViewDemo.debug.xcconfig */,
-				202900AF0BDA2D1FD82A675C /* Pods-LGRefreshViewDemo.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		FE1F170CEC0E67195649D7BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D1B1DD7E710090D5EE0DB7D5 /* libPods-LGRefreshViewDemo.a */,
+				4A2C41B21BF4C9E300D071CD /* DACircularProgress */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,12 +165,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841015D61A94CA2B0004B53B /* Build configuration list for PBXNativeTarget "LGRefreshViewDemo" */;
 			buildPhases = (
-				DFDFB465598A606DE8DFE9E7 /* Check Pods Manifest.lock */,
 				841015AF1A94CA2B0004B53B /* Sources */,
 				841015B01A94CA2B0004B53B /* Frameworks */,
 				841015B11A94CA2B0004B53B /* Resources */,
-				219634B754F06EB0F6CDF5AC /* Copy Pods Resources */,
-				EF90458982FEE8DBABEB0FCE /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,7 +184,7 @@
 		841015AB1A94CA2B0004B53B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Demo;
 				TargetAttributes = {
 					841015B21A94CA2B0004B53B = {
@@ -215,66 +221,21 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		219634B754F06EB0F6CDF5AC /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGRefreshViewDemo/Pods-LGRefreshViewDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DFDFB465598A606DE8DFE9E7 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		EF90458982FEE8DBABEB0FCE /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGRefreshViewDemo/Pods-LGRefreshViewDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		841015AF1A94CA2B0004B53B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				841015BF1A94CA2B0004B53B /* TableViewController.m in Sources */,
+				4A2C41B81BF4C9E300D071CD /* DALabeledCircularProgressView.m in Sources */,
 				4A45A9C91A98AE2A00AC75D0 /* RefreshTableViewController.m in Sources */,
 				4A4783A31A99D6560058F504 /* RefreshCollectionViewController.m in Sources */,
 				4ADC01FC1AC2E1E900F40A74 /* RefreshScrollViewController.m in Sources */,
 				841015DE1A94CAEA0004B53B /* NavigationController.m in Sources */,
+				4A2C41B71BF4C9E300D071CD /* DACircularProgressView.m in Sources */,
 				841015BC1A94CA2B0004B53B /* AppDelegate.m in Sources */,
 				841015B91A94CA2B0004B53B /* main.m in Sources */,
+				4A2C41BC1BF4CA0100D071CD /* LGRefreshView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +262,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -361,7 +323,6 @@
 		};
 		841015D71A94CA2B0004B53B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6B85288ACFBB85E0BB95906 /* Pods-LGRefreshViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -370,13 +331,13 @@
 				INFOPLIST_FILE = LGRefreshViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.$(PRODUCT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		841015D81A94CA2B0004B53B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 202900AF0BDA2D1FD82A675C /* Pods-LGRefreshViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -385,6 +346,7 @@
 				INFOPLIST_FILE = LGRefreshViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.$(PRODUCT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

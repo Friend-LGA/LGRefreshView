@@ -28,7 +28,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DACircularProgressView.h"
 
 @class LGRefreshView;
 
