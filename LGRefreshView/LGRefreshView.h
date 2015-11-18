@@ -47,6 +47,8 @@ static NSString *const kLGRefreshViewEndRefreshingNotification   = @"LGRefreshVi
 @property (assign, nonatomic, readonly, getter=isRefreshing) BOOL refreshing;
 @property (assign, nonatomic, getter=isEnabled) BOOL              enabled;
 @property (strong, nonatomic) UIColor                             *tintColor;
+@property (assign, nonatomic) CGFloat                             offsetY;
+@property (assign, nonatomic) UIView                              *loadingView;
 
 /** Do not forget about weak referens to self */
 @property (strong, nonatomic) void (^refreshHandler)(LGRefreshView *refreshView);
@@ -75,6 +77,9 @@ static NSString *const kLGRefreshViewEndRefreshingNotification   = @"LGRefreshVi
                                  delegate:(id<LGRefreshViewDelegate>)delegate;
 
 #pragma mark -
+
++ (void)setTintColor:(UIColor *)tintColor;
++ (void)setLoadingView:(UIView *)view;
 
 /** Needs to be called when refreshing is ended */
 - (void)endRefreshing;
