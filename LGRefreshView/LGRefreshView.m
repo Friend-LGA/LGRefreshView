@@ -414,7 +414,7 @@ static UIColor *kLGRefreshViewTintColor;
 
         [_scrollView addObserver:self forKeyPath:@"contentInset" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionPrior context:nil];
         [_scrollView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
-        [_scrollView addObserver:self forKeyPath:@"frame" options:NSKeyValueObservingOptionNew context:nil];
+        [_scrollView addObserver:self forKeyPath:@"bounds" options:NSKeyValueObservingOptionNew context:nil];
     }
 }
 
@@ -426,15 +426,15 @@ static UIColor *kLGRefreshViewTintColor;
 
         [_scrollView removeObserver:self forKeyPath:@"contentInset"];
         [_scrollView removeObserver:self forKeyPath:@"contentOffset"];
-        [_scrollView removeObserver:self forKeyPath:@"frame"];
+        [_scrollView removeObserver:self forKeyPath:@"bounds"];
     }
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
-    if ([keyPath isEqualToString:@"frame"])
+    if ([keyPath isEqualToString:@"bounds"])
     {
-        if (self.frame.size.width != _scrollView.frame.size.width)
+        if (self.bounds.size.width != _scrollView.bounds.size.width)
         {
             [self layoutInvalidate];
 
@@ -445,7 +445,7 @@ static UIColor *kLGRefreshViewTintColor;
                 [self restoreDefaultState];
 
                 UIEdgeInsets contentInset = _scrollView.contentInset;
-                contentInset.top -= self.frame.size.height;
+                contentInset.top -= self.bounds.size.height;
                 _scrollView.contentInset = contentInset;
 
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^(void)
